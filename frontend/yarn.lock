@@ -810,11 +810,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.10.12":
-  version: 2.10.29
-  resolution: "baseline-browser-mapping@npm:2.10.29"
+  version: 2.10.27
+  resolution: "baseline-browser-mapping@npm:2.10.27"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/d629a6d87f1aa0585b85ec8bf686bf58d706836fe7827d7bd11f646db2292f2089d8dff33fdd9a1ffe4c07424ae5b08743f57d9405d45cd8ceeb145e8dfb58e5
+  checksum: 10c0/8ebadaeeddc99367a1522661476d6c895b452a96023c6cef0576aecf8f5f6d37c91e6bde8fa8904cc11a32c5c6bc9df2030481504e50a5aed17e6c7f8bac3b5a
   languageName: node
   linkType: hard
 
@@ -908,9 +908,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.328":
-  version: 1.5.353
-  resolution: "electron-to-chromium@npm:1.5.353"
-  checksum: 10c0/a5481023e4056d8773b5ccd646906123d82f2821466b26b521b96c9645d0714c5be6a5af792ec8477b904a5fcfe3794bfc45d2acbf8b306f4693842fb85a7cd4
+  version: 1.5.352
+  resolution: "electron-to-chromium@npm:1.5.352"
+  checksum: 10c0/d1672a327420ea0c5dffbd604c448e5bacf9238953f7ce464f3d31c98309bb5ebe82443fb2425de0a78db3ef89261356ee59967dbac866e16262b8bbc0a03209
   languageName: node
   linkType: hard
 
@@ -1073,6 +1073,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exercicio1@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "exercicio1@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^10.0.1"
+    "@types/node": "npm:^24.12.2"
+    "@types/react": "npm:^19.2.14"
+    "@types/react-dom": "npm:^19.2.3"
+    "@types/react-router-dom": "npm:5.3.3"
+    "@vitejs/plugin-react": "npm:^6.0.1"
+    eslint: "npm:^10.2.1"
+    eslint-plugin-react-hooks: "npm:^7.1.1"
+    eslint-plugin-react-refresh: "npm:^0.5.2"
+    globals: "npm:^17.5.0"
+    react: "npm:^19.2.5"
+    react-dom: "npm:^19.2.5"
+    react-router-dom: "npm:6.4.1"
+    typescript: "npm:~6.0.2"
+    typescript-eslint: "npm:^8.58.2"
+    vite: "npm:^8.0.10"
+  languageName: unknown
+  linkType: soft
+
 "exponential-backoff@npm:^3.1.1":
   version: 3.1.3
   resolution: "exponential-backoff@npm:3.1.3"
@@ -1148,29 +1171,6 @@ __metadata:
   checksum: 10c0/a65b67aae7172d6cdf63691be7de6c5cd5adbdfdfe2e9da1a09b617c9512ed794037741ee53d93114276bff3f93cd3b0d97d54f9b316e1e4885dde6e9ffdf7ed
   languageName: node
   linkType: hard
-
-"frontend@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "frontend@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^10.0.1"
-    "@types/node": "npm:^24.12.2"
-    "@types/react": "npm:^19.2.14"
-    "@types/react-dom": "npm:^19.2.3"
-    "@types/react-router-dom": "npm:5.3.3"
-    "@vitejs/plugin-react": "npm:^6.0.1"
-    eslint: "npm:^10.2.1"
-    eslint-plugin-react-hooks: "npm:^7.1.1"
-    eslint-plugin-react-refresh: "npm:^0.5.2"
-    globals: "npm:^17.5.0"
-    react: "npm:^19.2.5"
-    react-dom: "npm:^19.2.5"
-    react-router-dom: "npm:6.4.1"
-    typescript: "npm:~6.0.2"
-    typescript-eslint: "npm:^8.58.2"
-    vite: "npm:^8.0.10"
-  languageName: unknown
-  linkType: soft
 
 "fsevents@npm:~2.3.3":
   version: 2.3.3
@@ -1786,11 +1786,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^7.3.5, semver@npm:^7.7.3":
-  version: 7.8.0
-  resolution: "semver@npm:7.8.0"
+  version: 7.7.4
+  resolution: "semver@npm:7.7.4"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/8f096ca9b80ffd47b308d03f9ce8c873e27e2983f36023c559cdc92c51e8433fc23ebbfe57ec9623fc155636a6961ee989501099841ae4bb1babc8d2b3f048cd
+  checksum: 10c0/5215ad0234e2845d4ea5bb9d836d42b03499546ddafb12075566899fc617f68794bb6f146076b6881d755de17d6c6cc73372555879ec7dce2c2feee947866ad2
   languageName: node
   linkType: hard
 
