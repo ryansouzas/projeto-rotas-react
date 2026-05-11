@@ -1,0 +1,27 @@
+.app-nav-products {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--app-color-bg-secondary);
+  color: var(--app-color-font-secondary);
+}
+
+.app-nav-products li {
+  color: var(--app-color-font-secondary);
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.app-nav-products li a {
+  color: var(--app-color-font-secondary);
+  text-decoration: none;
+}
+
+.app-nav-products a.active {
+  font-weight: bold;
+  padding-bottom: 2px;
+}

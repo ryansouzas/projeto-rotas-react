@@ -38,3 +38,12 @@ header {
 .mt-20 {
   margin-top: 20px;
 }
+
+.app-product-catalog {
+  color: var(--app-color-font-secondary);
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 10px;
+}

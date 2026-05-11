@@ -10,7 +10,6 @@ export default function Header() {
           <li>Produtos</li>
           <li>Sobre Nós</li>
         </ul>
-
         <img src={homeIcon} alt="Home" />
       </nav>
     </header>
