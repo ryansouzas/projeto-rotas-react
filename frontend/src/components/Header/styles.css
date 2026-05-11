@@ -17,7 +17,7 @@
   padding: 0;
 }
 
-.app-nav-header li {
+.app-nav-header a {
   color: var(--app-color-font-primary);
   text-decoration: none;
   font-weight: 400;
