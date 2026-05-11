@@ -5,6 +5,7 @@ import Home from "./routes/Home";
 import NotFound from "./routes/NotFound";
 import Products from "./routes/Products";
 import About from "./routes/About";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
           <Route path="/" element={<ClientSite />}>
             <Route index element={<Home />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/products" element={<Products />} />
+            <Route path="/products" element={<Products />}>
+              <Route path=":category" element={<ProductList />} />
+            </Route>
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Route>
